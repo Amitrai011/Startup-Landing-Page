@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+.cross-button {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  margin: auto;
+  max-width: 150vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-navbar-element {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.right-navbar-element p {
+  color: grey;
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+.right-navbar-element p:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.first-container {
+  display: flex;
+  max-width: 155vh;
+  margin: auto;
+}
+
+.first-container .left-container {
+  margin-top: 10vh;
+  /* max-width: 70vh; */
+}
+
+.first-container .right-container {
+  margin-top: 15vh;
+}
+
+.first-container .left-container p {
+  color: grey;
+}
+
+.first-container-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.button-style {
+  cursor: pointer;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  text-decoration: none;
+}
+
+.first-container-buttons .second-button {
+  background-color: white;
+  color: hsl(229, 8%, 60%);
+}
+
+.button-style:hover {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2.5px hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+}
+
+.features-container p {
+  color: grey;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.features-container h2 {
+  font-size: 2rem;
+  color: hsl(229, 31%, 21%);
+}
+
+.features-container {
+  text-align: center;
+  max-width: 64vh;
+  margin: auto;
+  margin-top: 25vh;
+}
+
+.pager-container {
+  display: flex;
+  gap: 70px;
+  font-size: 1.3rem;
+  color: grey;
+  cursor: pointer;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.simple-bookmark:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.speedy-searching:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.easy-sharing:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.bookmark-container {
+  margin-top: 50px;
+  display: flex;
+  max-width: 238vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  max-width: 150vh;
+  margin-top: 10vh;
+  gap: 13vh;
+}
+
+.details p {
+  color: grey;
+}
+
+.details h2 {
+  margin: 0;
+  align-self: flex-start;
+}
+
+.details button {
+  align-self: flex-start;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.details button:hover {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2.5px hsl(231, 69%, 60%);
+  color: black;
+}
+
+.details div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 55vh;
+}
+
+.details img {
+  max-width: 500px;
+}
+
+/* Extension Container */
+.extension-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.bottom-container {
+  display: flex;
+  margin-top: 10vh;
+  gap: 40px;
+}
+
+.extension {
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  padding: 25px 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 30vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-container a:hover {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2.5px hsl(231, 69%, 60%);
+  color: black;
+}
+
+.firefox-extension {
+  margin-top: 20px;
+}
+
+.opera-extension {
+  margin-top: 40px;
+}
+
+.top-container {
+  max-width: 70vh;
+}
+
+.top-container p {
+  color: hsl(229, 8%, 60%);
+  line-height: 2rem;
+}
+
+.top-container h1 {
+  color: hsl(229, 31%, 21%);
+  font-size: 2rem;
+}
+
+.faq-container {
+  max-width: 65vh;
+  margin-top: 15vh;
+}
+
+.questions {
+  margin-top: 7vh;
+  text-align: left;
+  cursor: pointer;
+}
+
+.questions h3 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 1rem;
+}
+
+.freqQuestion:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.questions h3::after {
+  content: url("images/icon-arrow.svg");
+  float: right;
+}
+
+.active {
+  max-height: 0;
+  overflow: hidden;
+}
+
+/* More Info */
+.more-info a:hover {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2.5px hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+}
+
+/* Last Container */
+.last-container {
+  padding: 7rem 7rem;
+  color: white;
+  text-align: center;
+  margin-top: 16vh;
+  background-color: hsl(231, 69%, 60%);
+}
+
+.last-container p {
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+
+.last-container a {
+  background-color: hsl(0, 94%, 66%);
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.email-container a {
+  padding: 12px 10px;
+}
+
+.last-container a:hover {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2.5px hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+}
+
+.last-container input {
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  border: none;
+}
+
+input::placeholder {
+  text-align: left;
+}
+
+/* Footer */
+.footer-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(229, 31%, 21%);
+  color: white;
+}
+
+.footer-first-container {
+  display: flex;
+  gap: 3rem;
+  padding: 2rem 2rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.footer-first-container p {
+  cursor: pointer;
+}
+
+.footer-second-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-first-container img {
+  filter: invert();
+}
+
+@media (max-width: 1100px) {
+  .right-container img {
+    width: 475px;
+  }
+
+  .first-container .left-container {
+    max-width: 80vh;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1000px) {
+  .hamburger-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .first-container {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+
+  .first-container .right-container img {
+    margin-top: 10vh;
+    width: 100%;
+  }
+
+  .first-container .right-container {
+    margin: auto;
+  }
+
+  .first-container .left-container {
+    max-width: 75vh;
+    margin: auto;
+    text-align: center;
+  }
+
+  .first-container-buttons {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pager-container {
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: none;
+  }
+
+  .simple-bookmark, .speedy-searching, .easy-sharing {
+    border-bottom: 1px solid hsl(229, 31%, 21%);
+    border-top: 1px solid hsl(229, 31%, 21%);
+    padding: 10px;
+  }
+
+  .details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .details div {
+    max-width: 70vh;
+    text-align: center;
+  }
+
+  .details div button {
+    align-self: center;
+    font-size: 1.2rem;
+  }
+
+  .extension-container .bottom-container {
+    flex-direction: column;
+  }
+
+  .bottom-container a {
+    padding: 15px;
+  }
+
+  .details img {
+    max-width: 500px;
+  }
+
+  .details h2 {
+    margin: 0;
+    align-self: auto;
+    font-size: 2rem;
+  }
+
+  .details p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .last-container {
+    padding: 2rem;
+  }
+
+  .last-container h1 {
+    font-size: 2rem;
+  }
+
+  .logo img {
+    padding: 10px;
+  }
+
+  .right-navbar-element {
+    display: none;
+  }
+
+  .nav-hide {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .hamburger-button {
+    display: flex;
+    width: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .navbar {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .first-container .left-container {
+    max-width: 65vh;
+  }
+
+  .details img {
+    max-width: 400px;
+  }
+
+  .last-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer-bottom-container {
+    flex-direction: column;
+  }
+
+  .footer-first-container {
+    padding-bottom: 0;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .last-container {
+    padding: 1rem;
+  }
+}
